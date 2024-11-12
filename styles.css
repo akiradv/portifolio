@@ -1,0 +1,143 @@
+/* styles.css */
+@font-face {
+    font-family: 'JackSilver';
+    src: url('fonts/JackSilver.ttf') format('truetype');
+    /* Use o formato correto do arquivo de fonte */
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    transition: background-color 0.5s ease; /* Transição suave para mudanças de cor de fundo */
+}
+
+header {
+    background-color: #111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* Transição suave para mudanças de cor de fundo */
+}
+
+header h1 {
+    font-family: 'JackSilver', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding-left: 20px;
+    transition: transform 0.3s ease; /* Transição suave para transformações */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Transição suave para cor e transformações */
+    font-size: 0.9em;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trabalho {
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para transformações e sombras */
+}
+
+.trabalho:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Adiciona uma sombra ao passar o mouse */
+}
+
+.trabalho img {
+    max-width: 300px; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para transformações e sombras */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para cor de fundo e transformações */
+}
+
+form button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px); /* Move ligeiramente para cima ao passar o mouse */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #121212;
+    color: #ccc;
+    padding: 5px 0;
+    margin-top: auto;
+}
+
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+} 
+footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+} 
