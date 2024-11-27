@@ -1,7 +1,7 @@
 /* styles.css */
 @font-face {
     font-family: 'JackSilver';
-    src: url('../fonts/JackSilver.ttf') format('truetype');
+    src: url('fonts/JackSilver.ttf') format('truetype');
     /* Use o formato correto do arquivo de fonte */
 }
 
