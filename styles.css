@@ -71,12 +71,15 @@ section {
 
 .trabalho {
     margin: 20px;
+    padding: 15px; /* Adiciona um pouco de espaço interno */
+    background-color: #222; /* Fundo para as caixas de projeto */
+    border-radius: 8px; /* Bordas arredondadas */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para transformações e sombras */
 }
 
 .trabalho:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Adiciona uma sombra ao passar o mouse */
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.3); /* Sombra mais pronunciada ao passar o mouse */
 }
 
 .trabalho img {
@@ -140,4 +143,23 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+} 
+.descricao {
+    margin-top: 10px; /* Espaço entre a imagem e a descrição */
+    color: #ccc; /* Cor do texto da descrição */
+} 
+.btn-projetos {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5722; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+.btn-projetos:hover {
+    background-color: #e64a19; /* Cor do botão ao passar o mouse */
 } 
